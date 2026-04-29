@@ -15,6 +15,7 @@ const menuItems = [
   { label: "Lab Facilities", url: "/LabFacilities" },
   { label: "Gallery", url: "/Gallery" },
   { label: "Services", url: "/Services" },
+  { label: "SIP-2026", url: "/SIP2026" },
   { label: "Fundings", url: "/Fundings" },
 ];
 
@@ -143,7 +144,7 @@ export default function Navbar() {
               <li key={index} className="py-4">
                 <Link
                   to={item.url}
-                  className="text-white mx-4"
+                  className={`text-white mx-4 ${item.label === "SIP-2026" ? "blink" : ""}`}
                   onClick={scrollToTop}
                 >
                   {item.label}

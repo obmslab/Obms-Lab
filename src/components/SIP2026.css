@@ -1,0 +1,518 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  color: white;
+  background-image: url('../images/imgBiotech.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.banner-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.banner-details {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.gradient-text{
+  background: linear-gradient(to top, #008000, #e7cd2c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+
+.apply-button {
+  background: #ffffff;
+  color: #ff7f2a;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 126, 42, 0.4);
+}
+.apply-button:hover {
+  background: #ff7f2a;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(255, 126, 42, 0.6);
+  transform: scale(1.05);
+}
+.download-brochure {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 13px;
+  background-color: #06bbcc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 6px 15px rgb(97 204 6 / 40%);
+}
+
+.download-btn:hover {
+  background-color: #0499a8;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: white;
+}
+
+.feature {
+  padding: 15px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ccc;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.tab:hover {
+  background-color: #bbb;
+}
+
+.tab.active {
+  background-color: #28a745; /* green highlight */
+  color: #fff;
+}
+
+.tab-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .tabs {
+    flex-direction: column;   /* stack vertically on very small screens */
+    align-items: center;
+  }
+
+  .tab {
+    width: 100%;              /* full width buttons for mobile */
+    text-align: center;
+  }
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f97316, #14b8a6);
+  color: white;
+}
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;   /* keep items aligned to the left */
+  gap: 30px;
+  padding: 20px;
+}
+.about-image {
+  padding-top: 10px;   
+}
+
+.about-image img {
+  width: 450px;                  /* adjust size */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 1;
+  text-align: left;              /* force text to start at left edge */
+}
+
+.about-content h2 , .institution-section h2{
+  font-size: 28px;
+  color: #06bbcc;
+  font-weight: bold;
+  text-align: left;              /* heading aligned left */
+}
+
+.about-content p, .institution-section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #444;
+  font-size: 16px;
+  text-align: justify;           /* justified text but starting left */
+}
+
+/* Responsive: stack image above text on small screens */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  .about-content {
+    text-align: center;          /* center text on mobile for readability */
+  }
+}
+.objectives-section {
+  padding: 20px;
+}
+
+.objectives-content h2, .registration-content h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #06bbcc;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.objectives-grid {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.objectives-grid h2 {
+  font-size: 30px;
+  color: #06bbcc;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card styling */
+.grid-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.grid-card h3 {
+  color: #06bbcc;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Bullet list */
+.grid-card ul , .registration-content ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.grid-card li , .registration-content li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #444;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .objectives-grid h2 {
+    font-size: 24px;
+  }
+
+  .grid-card h3 {
+    font-size: 18px;
+  }
+
+  .grid-card li {
+    font-size: 14px;
+  }
+}
+
+.bank-details-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bank-details-section h2 {
+  text-align: center;
+  color: #06bbcc;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.fee-info {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.bank-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.bank-table th {
+  text-align: left;
+  width: 40%;
+  padding: 10px;
+  background-color: #06bbcc;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+
+.bank-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: #333;
+  background-color: #fff;
+}
+
+.payment-note {
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bank-details-section {
+    padding: 15px;
+  }
+
+  .bank-table th,
+  .bank-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .bank-details-section h2 {
+    font-size: 22px;
+  }
+}
+
+.contact-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #06bbcc;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.contact-block {
+  margin-bottom: 25px;
+}
+
+.contact-block h3 {
+  font-size: 20px;
+  color: #06bbcc;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.contact-block ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.contact-block li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+}
+
+.contact-block a {
+  color: #06bbcc;
+  text-decoration: none;
+}
+
+.contact-block a:hover {
+  text-decoration: underline;
+}
+
+.contact-block p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 15px;
+  }
+
+  .contact-section h2 {
+    font-size: 24px;
+  }
+
+  .contact-block h3 {
+    font-size: 18px;
+  }
+
+  .contact-block li,
+  .contact-block p {
+    font-size: 14px;
+  }
+}
+
+.benefits-colored-section {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.benefits-colored-section h2 {
+  font-size: 28px;
+  color: #06bbcc;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Row layout for side-by-side cards */
+.colored-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 20px;
+}
+
+/* Card styling */
+.colored-card {
+  flex: 1 1 220px; /* flexible width, min 220px */
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.colored-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Circular colored icon */
+.colored-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+}
+
+.colored-card h3 {
+  font-size: 20px;
+  color: #06bbcc;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.colored-card p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .colored-row {
+    flex-direction: column; /* stack vertically on small screens */
+  }
+
+  .benefits-colored-section h2 {
+    font-size: 24px;
+  }
+
+  .colored-card h3 {
+    font-size: 18px;
+  }
+
+  .colored-card p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+

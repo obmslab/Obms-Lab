@@ -38,6 +38,7 @@ const Home = () => {
 
   return (
     <>
+     <marquee class="blink blink-clr">SUMMER INTERNSHIP PROGRAM(SIP)-2026: a bridge course for Biotechnology and Biomedical Engineers. Course duration - 1st June to 15th July. Last date for apply - 20th May 2026.</marquee>
       <Carousel />
       <div className="flex flex-col md:flex-row items-center justify-evenly p-8 md:p-16">
         <div className="text-center md:text-left mb-8 md:mb-0">

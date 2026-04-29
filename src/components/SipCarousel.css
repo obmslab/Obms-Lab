@@ -1,0 +1,77 @@
+.carousel {
+  position: relative;   /* allows absolute positioning of arrows */
+  width: 70%;         /* adjust as needed */
+  overflow: hidden;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.carousel-inner {
+  display: flex;        /* ensures items line up horizontally */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;      /* each slide takes full width */
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Arrows positioned left/right over image */
+.carousel-btn {
+  position: absolute;   /* place arrows inside carousel */
+  top: 50%;             /* vertically center */
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  z-index: 2;           /* keep arrows above images */
+}
+
+.carousel-btn.left {
+  left: 10px;           /* stick to left edge */
+}
+
+.carousel-btn.right {
+  right: 10px;          /* stick to right edge */
+}
+
+.carousel-btn:hover {
+  background: rgba(0,0,0,0.7);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Dot indicators */
+.carousel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dot:hover {
+  background-color: #888;
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background-color: #333;
+}

@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: #ffcc00 !important;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.blink-clr {
+  color: #ff0000 !important;
+  padding: 4px;
+}
+
+
+

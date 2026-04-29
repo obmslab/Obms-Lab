@@ -12,6 +12,8 @@ import Services from "./components/Services";
 import Fundings from "./components/Fundings";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import Sip from "./components/SIP2026";
+import "./App.css";
 
 const App = () => {
   return (
@@ -28,6 +30,7 @@ const App = () => {
           <Route path="/LabFacilities" element={<LabFacilities />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Services" element={<Services />} />
+          <Route path="/SIP2026" element={<Sip />} />
           <Route path="/Fundings" element={<Fundings />} />
         </Routes>
       </div>
