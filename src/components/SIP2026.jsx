@@ -345,7 +345,7 @@ export default function Sip() {
                   <h3>Student Coordinators</h3>
                   <ul>
                     <li>Mr. Soumyajyoti De : <a href="tel:9564540744">9564540744</a></li>
-                    <li>Mr. Tushar : <a href="tel:8763359276">8763359276</a></li>
+                    <li>Mr. Tushar : <a href="tel:9511234820">9511234820</a></li>
                   </ul>
                 </div>
               </div>
