@@ -78,7 +78,7 @@ const Home = () => {
             <li className="list-disc text-pink-500 pb-4">
                 <p className="text-lime-400">
                   <strong>Apply now for SIP 2026 - </strong>Summer Internship Program in Biotechnology & Medical Engineering
-                   (Hybrid Mode) -Deadline 20th May, 2026.
+                   (Hybrid Mode) -Deadline 27th May, 2026.
                 </p>
               </li>
               <li className="list-disc text-pink-500 pb-4">
