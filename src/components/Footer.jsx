@@ -60,7 +60,7 @@ export default function Footer() {
               <ul className="text-left w-3/4 m-auto p-4 text-2xl text-lime-400">
                 <li className="list-disc pb-4">
                     <strong>Apply now for SIP 2026 - </strong>Summer Internship Program in Biotechnology & Medical Engineering
-                    (Hybrid Mode) -Deadline 20th May, 2026.
+                    (Hybrid Mode) -Deadline 27th May, 2026.
                 </li>
                 <li className="list-disc pb-4">
                   <strong>New Ph.D. Position open - </strong>One with Institute

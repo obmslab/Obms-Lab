@@ -116,7 +116,7 @@ export default function Sip() {
           </p>
           <p className="banner-details gradient-text">
             Course Duration: <strong>1st June - 15th July</strong> <br />
-            Last Date for Application: <strong>20th May, 2026</strong>
+            Last Date for Application: <strong>27th May, 2026</strong>
           </p>
           <a href="https://forms.gle/9roLWQCaiNvgog6G8" target="_blank" rel="noopener noreferrer">
             <button className="apply-button">Apply Now</button>
@@ -225,7 +225,7 @@ export default function Sip() {
                 </div>
                 <h2>Important Dates</h2>
                 <ul>
-                  <li>Registration Closes on <strong>20th May 2026.</strong></li>
+                  <li>Registration Closes on <strong>27th May 2026.</strong></li>
                   <li>Early registries will be assigned projects early and monitored the progress of the project.</li>
                   <li>Course duration: <strong>1st June 2026 to 15th July 2026 (45 days).</strong></li>
                   <li>1st June to 15th June 2026 training on various topics through lecture series.</li>
