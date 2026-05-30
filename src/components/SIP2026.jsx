@@ -118,9 +118,10 @@ export default function Sip() {
             Course Duration: <strong>1st June - 15th July</strong> <br />
             Last Date for Application: <strong>27th May, 2026</strong>
           </p>
-          <a href="https://forms.gle/9roLWQCaiNvgog6G8" target="_blank" rel="noopener noreferrer">
+          <p className="banner-details gradient-text">Application Closed</p>
+          {/* <a href="https://forms.gle/9roLWQCaiNvgog6G8" target="_blank" rel="noopener noreferrer">
             <button className="apply-button">Apply Now</button>
-          </a>
+          </a> */}
           <div class="download-brochure">
             <a href="../files/SIP_Brochure_2026.pdf" download class="download-btn">Download Brochure</a>
           </div>
